@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Jonas Schedtmann",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.535",
+    "sass": "^1.32.4"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "img": "^3.0.3",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
